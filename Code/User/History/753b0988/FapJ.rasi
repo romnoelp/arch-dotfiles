@@ -1,0 +1,77 @@
+* {
+  background:     #0E0E0E;
+  foreground:     #C8C8C8;
+  border-color:   #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+  font: "JetBrainsMono Nerd Font Mono 10";
+  border: 2px;
+  padding: 10px;
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px;
+  padding: 0px;
+  background-color: #0E0E0E;
+  border-radius: 12px;
+}
+
+mainbox {
+  orientation: horizontal;
+  children: [ "listview" ];
+  spacing: 10px;
+  border: 0;
+  margin: 10px;
+}
+
+listview {
+  lines: 10;
+  columns: 1;
+  spacing: 5px;
+  scrollbar: true;
+  fixed-height: false;
+  border: 2px;
+  border-radius: 10px;
+  background-color: #1A1A1A;
+  padding: 10px;
+}
+
+element {
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+
+element normal {
+  background-color: #1A1A1A;
+  text-color: #C8C8C8;
+}
+
+element selected {
+  background-color: #C0C0C0;
+  text-color: #000000;
+}
+
+element alternate {
+  background-color: #161616;
+}
+
+entry {
+  border: 2px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #1A1A1A;
+  text-color: #C8C8C8;
+  margin: 10px;
+}
+
+prompt {
+  text-color: #C8C8C8;
+}
+
+message {
+  border: 0;
+  padding: 5px;
+  text-color: #FF5C5C;
+}

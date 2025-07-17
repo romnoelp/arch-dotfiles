@@ -1,0 +1,39 @@
+* {
+  background:     #0E0E0E;
+  foreground:     #C8C8C8;
+  border-color:   #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+  border:         2px;
+  padding:        10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px;
+  padding: 0px;
+  background-color: transparent;
+  background-image: url("/home/romnoelp/storage/Wallpapers/rofi.jpeg");
+  background-size: cover;
+  location: center;
+}
+
+mainbox {
+  orientation: horizontal;
+  children: [ "imagebox", "listview" ];
+}
+
+imagebox {
+  border: 2px solid #C0C0C0;
+  padding: 10px;
+  width: 50%;
+  background-color: transparent;
+}
+
+listview {
+  padding: 20px;
+  lines: 10;
+  columns: 1;
+}

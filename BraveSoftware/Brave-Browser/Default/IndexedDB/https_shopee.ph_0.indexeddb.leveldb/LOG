@@ -1,0 +1,15 @@
+2025/07/15-14:34:54.406 733 Reusing MANIFEST /home/romnoelp/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_shopee.ph_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/15-14:34:54.407 733 Recovering log #4
+2025/07/15-14:34:54.422 733 Reusing old log /home/romnoelp/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_shopee.ph_0.indexeddb.leveldb/000004.log 
+2025/07/15-14:47:54.559 734 Level-0 table #8: started
+2025/07/15-14:47:54.579 734 Level-0 table #8: 912663 bytes OK
+2025/07/15-14:47:54.585 734 Delete type=0 #4
+2025/07/15-14:47:54.586 734 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/07/15-14:47:54.586 735 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x0c\x00m\x00i\x00n\x00i\x00-\x00s\x00e\x00s\x00s\x00i\x00o\x00n' @ 7753 : 1
+2025/07/15-14:47:54.587 735 Compacting 1@1 + 1@2 files
+2025/07/15-14:47:54.600 735 Generated table #9@1: 146 keys, 39052 bytes
+2025/07/15-14:47:54.600 735 Compacted 1@1 + 1@2 files => 39052 bytes
+2025/07/15-14:47:54.602 735 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/15-14:47:54.603 735 Delete type=2 #5
+2025/07/15-14:47:54.604 735 Delete type=2 #8
+2025/07/15-14:47:54.604 734 Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x0c\x00m\x00i\x00n\x00i\x00-\x00s\x00e\x00s\x00s\x00i\x00o\x00n' @ 7753 : 1 .. (end); will stop at (end)

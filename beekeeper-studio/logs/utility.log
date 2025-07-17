@@ -1,0 +1,300 @@
+[2025-07-13 19:22:07.089] [info]  (utilityPlatformInfo) {
+  isWindows: false,
+  isMac: false,
+  isArm: false,
+  oracleSupported: true,
+  parsedArgs: { _: [], sandbox: false },
+  isLinux: true,
+  sessionType: 'x11',
+  isWayland: false,
+  isPortable: false,
+  isDevelopment: false,
+  isAppImage: false,
+  resourcesPath: '/usr/lib/beekeeper-studio/resources',
+  env: { development: false, test: false, production: true },
+  debugEnabled: false,
+  platform: 'linux',
+  darkMode: false,
+  userDirectory: '/home/romnoelp/.config/beekeeper-studio',
+  downloadsDirectory: '/home/romnoelp',
+  homeDirectory: '/home/romnoelp',
+  pluginsDirectory: '/home/romnoelp/.config/beekeeper-studio/plugins',
+  testMode: false,
+  appDbPath: '/home/romnoelp/.config/beekeeper-studio/app.db',
+  updatesDisabled: false,
+  appVersion: '5.2.12',
+  parsedAppVersion: { major: 5, minor: 2, patch: 12, channel: 'stable' },
+  cloudUrl: 'https://app.beekeeperstudio.io',
+  locale: ''
+}
+[2025-07-13 19:22:07.111] [info]  (BksConfig)           Loading configs.
+[2025-07-13 19:22:07.112] [debug] (BksConfig)           Loading config default.config.ini.
+[2025-07-13 19:22:07.112] [info]  (BksConfig)           Copying bundled config default.config.ini to /home/romnoelp/.config/beekeeper-studio/default.config.ini.
+[2025-07-13 19:22:07.112] [warn]  (BksConfig)           Skipping copy of default.config.ini. Permission denied or dest not writable: ENOENT: no such file or directory, access '/home/romnoelp/.config/beekeeper-studio/default.config.ini'
+[2025-07-13 19:22:07.115] [debug] (BksConfig)           Successfully read config /usr/lib/beekeeper-studio/resources/default.config.ini.
+[2025-07-13 19:22:07.115] [debug] (BksConfig)           Loading config system.config.ini.
+[2025-07-13 19:22:07.115] [warn]  (BksConfig)           Failed loading system config. System config path not found: /etc/beekeeper-studio/system.config.ini
+[2025-07-13 19:22:07.115] [debug] (BksConfig)           Loading config user.config.ini.
+[2025-07-13 19:22:07.115] [info]  (BksConfig)           Copying bundled config user.config.ini to /home/romnoelp/.config/beekeeper-studio/user.config.ini.
+[2025-07-13 19:22:07.116] [warn]  (BksConfig)           Skipping copy of user.config.ini. Permission denied or dest not writable: ENOENT: no such file or directory, access '/home/romnoelp/.config/beekeeper-studio/user.config.ini'
+[2025-07-13 19:22:07.116] [error] (BksConfig)           Failed reading config /home/romnoelp/.config/beekeeper-studio/user.config.ini. Error: ENOENT: no such file or directory, open '/home/romnoelp/.config/beekeeper-studio/user.config.ini'
+    at readFileSync (node:fs:448:20)
+    at t.readFileSync (node:electron/js2c/node_init:2:10175)
+    at readConfig (/usr/lib/beekeeper-studio/resources/app.asar/dist/utility.js:458247:77)
+    at loadConfig (/usr/lib/beekeeper-studio/resources/app.asar/dist/utility.js:458294:10)
+    at mainBksConfig (/usr/lib/beekeeper-studio/resources/app.asar/dist/utility.js:458336:18)
+    at Object.<anonymous> (/usr/lib/beekeeper-studio/resources/app.asar/dist/utility.js:458364:15)
+    at Module._compile (node:internal/modules/cjs/loader:1484:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)
+    at Module.load (node:internal/modules/cjs/loader:1295:32)
+    at Module._load (node:internal/modules/cjs/loader:1111:12)
+[2025-07-13 19:22:07.149] [warn]  (BksConfig)           Failed loading user config. Ignoring. Error: ENOENT: no such file or directory, open '/home/romnoelp/.config/beekeeper-studio/user.config.ini'
+    at readFileSync (node:fs:448:20)
+    at t.readFileSync (node:electron/js2c/node_init:2:10175)
+    at readConfig (/usr/lib/beekeeper-studio/resources/app.asar/dist/utility.js:458247:77)
+    at loadConfig (/usr/lib/beekeeper-studio/resources/app.asar/dist/utility.js:458294:10)
+    at mainBksConfig (/usr/lib/beekeeper-studio/resources/app.asar/dist/utility.js:458336:18)
+    at Object.<anonymous> (/usr/lib/beekeeper-studio/resources/app.asar/dist/utility.js:458364:15)
+    at Module._compile (node:internal/modules/cjs/loader:1484:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)
+    at Module.load (node:internal/modules/cjs/loader:1295:32)
+    at Module._load (node:internal/modules/cjs/loader:1111:12)
+[2025-07-13 19:22:07.150] [info]  (BksConfig)           Configs successfully loaded with 0 warnings.
+[2025-07-13 19:22:07.150] [warn]  (BksConfig)           Warnings: []
+[2025-07-13 19:22:07.150] [info]  (BksConfig)           Default config: {
+  "general": {
+    "checkForUpdatesInterval": 86400000,
+    "dataSyncInterval": 30000,
+    "workspaceSyncInterval": 5000
+  },
+  "security": {
+    "disconnectOnSuspend": false,
+    "disconnectOnLock": false,
+    "disconnectOnIdle": false,
+    "lockMode": "disabled",
+    "idleThresholdSeconds": 300,
+    "idleCheckIntervalSeconds": 30,
+    "minPinLength": 6
+  },
+  "ui": {
+    "general": {
+      "binaryEncoding": "hex"
+    },
+    "layout": {
+      "mainContentMinWidth": 200,
+      "primarySidebarMinWidth": 150,
+      "secondarySidebarMinWidth": 150
+    },
+    "queryEditor": {
+      "maxResults": 50000
+    },
+    "tableTable": {
+      "pageSize": 100,
+      "largeFieldWidth": 300,
+      "maxColumnWidth": 1000,
+      "minColumnWidth": 100,
+      "maxInitialWidth": 500,
+      "defaultColumnWidth": 125
+    },
+    "tableTriggers": {
+      "maxColumnWidth": 300
+    },
+    "tableList": {
+      "itemHeight": 22.8
+    },
+    "export": {
+      "errorNoticeTimeout": 60000
+    }
+  },
+  "db": {
+    "mysql": {
+      "connectTimeout": 3600000
+    },
+    "mariadb": {
+      "connectTimeout": 3600000
+    },
+    "postgres": {
+      "connectionTimeout": 15000,
+      "idleTimeout": 20000,
+      "maxClient": 5
+    },
+    "cockroachdb": {
+      "connectionTimeout": 15000,
+      "idleTimeout": 20000,
+      "maxClient": 5
+    },
+    "redshift": {
+      "connectionTimeout": 15000,
+      "idleTimeout": 20000,
+      "maxClient": 5
+    }
+  },
+  "keybindings": {
+    "general": {
+      "refresh": [
+        "f5",
+        "ctrlOrCmd+r"
+      ],
+      "addRow": "ctrlOrCmd+n",
+      "save": "ctrlOrCmd+s",
+      "openInSqlEditor": "ctrlOrCmd+shift+s",
+      "openQuickSearch": "ctrlOrCmd+p",
+      "copySelection": "ctrlOrCmd+c",
+      "pasteSelection": "ctrlOrCmd+v",
+      "cloneSelection": "ctrlOrCmd+d",
+      "deleteSelection": "delete"
+    },
+    "tab": {
+      "closeTab": "ctrlOrCmd+w",
+      "nextTab": [
+        "ctrl+tab",
+        "ctrlOrCmd+pagedown"
+      ],
+      "previousTab": [
+        "ctrl+shift+tab",
+        "ctrlOrCmd+pageup"
+      ],
+      "reopenLastClosedTab": "ctrlOrCmd+shift+t",
+      "switchTab1": "alt+1",
+      "switchTab2": "alt+2",
+      "switchTab3": "alt+3",
+      "switchTab4": "alt+4",
+      "switchTab5": "alt+5",
+      "switchTab6": "alt+6",
+      "switchTab7": "alt+7",
+      "switchTab8": "alt+8",
+      "switchTab9": "alt+9"
+    },
+    "quickSearch": {
+      "focusSearch": [
+        "ctrlOrCmd+k",
+        "ctrlOrCmd+o"
+      ],
+      "close": "esc",
+      "selectUp": [
+        "up",
+        "ctrlOrCmd+p"
+      ],
+      "selectDown": [
+        "down",
+        "ctrlOrCmd+n"
+      ],
+      "open": "enter",
+      "altOpen": "ctrlOrCmd+enter",
+      "openInBackground": "right",
+      "altOpenInBackground": "ctrlOrCmd+right"
+    },
+    "queryEditor": {
+      "selectEditor": "ctrlOrCmd+l",
+      "submitQueryToFile": "ctrlOrCmd+i",
+      "submitCurrentQueryToFile": "ctrlOrCmd+shift+i",
+      "selectNextResult": "shift+up",
+      "selectPreviousResult": "shift+down",
+      "copyResultSelection": "ctrlOrCmd+c",
+      "switchPaneFocus": "ctrlOrCmd+`"
+    },
+    "tableTable": {
+      "nextPage": "ctrlOrCmd+right",
+      "previousPage": "ctrlOrCmd+left",
+      "focusOnFilterInput": "ctrlOrCmd+f",
+      "openEditorModal": "shift+enter"
+    }
+  }
+}
+[2025-07-13 19:22:07.151] [info]  (BksConfig)           System config: {}
+[2025-07-13 19:22:07.151] [info]  (BksConfig)           User config: {}
+[2025-07-13 19:22:08.252] [info]                        initializing utility
+[2025-07-13 19:22:09.118] [info]  (UtilityProcess)      RECEIVED PORT:  {
+  _events: {},
+  _eventsCount: 0,
+  _internalPort: {
+    postMessage: '[function] function postMessage() { [native code] }',
+    start: '[function] function start() { [native code] }',
+    close: '[function] function close() { [native code] }',
+    emit: '[function] (e,t)=>{"message"===e&&(t={...t,ports:t.ports.map((e=>new MessagePortMain(e)))}),this.emit(e,t)}'
+  }
+}
+[2025-07-13 19:22:09.124] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus aa6b3a13-500f-4532-8d08-ca24eb48e0e2
+[2025-07-13 19:22:09.125] [info]  (OfflineLicense)      Loading offline license from /home/romnoelp/.config/beekeeper-studio/license.json
+[2025-07-13 19:22:09.125] [info]  (OfflineLicense)      Offline license does not exist /home/romnoelp/.config/beekeeper-studio/license.json
+[2025-07-13 19:22:09.125] [info]  (OfflineLicense)      Loading public key from /usr/lib/beekeeper-studio/resources/production_pub.pem
+[2025-07-13 19:22:09.125] [info]  (OfflineLicense)      Loaded public key
+[2025-07-13 19:22:09.125] [info]  (OfflineLicense)      Validated license -  null
+[2025-07-13 19:22:09.130] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/setting/find 43e5d906-3ced-4880-aa2b-3a7d099c3884
+[2025-07-13 19:22:09.133] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 013b7592-fdca-4860-9a09-88f9357b301d
+[2025-07-13 19:22:09.135] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getInstallationId e37dfdff-e768-45b9-8dea-60422030a2cb
+[2025-07-13 19:22:09.136] [info]  (InstallationId)      Found ID: {
+  id: 1,
+  createdAt: '2025-07-13T11:22:05.000Z',
+  updatedAt: '2025-07-13T11:22:05.000Z',
+  version: 0,
+  installationId: '1b64ffb2-3643-4738-8878-dfd8e16ff374'
+}
+[2025-07-13 19:22:09.137] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  enum/init c4229c19-f643-4da7-b32f-6d973ae9ee60
+[2025-07-13 19:22:09.141] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  enum/load 0cd864c2-c157-490d-b0d4-31e1929f3635
+[2025-07-13 19:22:09.187] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/query/find fe2da670-b8aa-4b32-b5e3-cf058b3ab14b
+[2025-07-13 19:22:09.189] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/saved/find 60ace34e-5117-4e35-bc2f-6ed20a1573df
+[2025-07-13 19:22:09.191] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/usedQuery/find ef23ff55-cbc1-4b17-bb2c-36245b0fcc41
+[2025-07-13 19:22:09.192] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/used/find e014d276-e7e7-4e47-b76a-16952240c805
+[2025-07-13 19:22:09.194] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus e8658334-4e34-491a-9526-bcf3ad5d9301
+[2025-07-13 19:22:09.223] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/credential/find 8725c588-a126-467b-82ad-35fc85615508
+[2025-07-13 19:22:09.255] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/setting/get a7affd47-d221-4d3a-ab87-a9aa2fc84302
+[2025-07-13 19:22:09.257] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/setting/get bd08001f-85b3-464a-8048-ca7087eb9d8d
+[2025-07-13 19:22:09.258] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/saved/new 8ded9954-43b6-47cd-8ccf-85bb8e0293d4
+[2025-07-13 19:22:09.332] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 46accd16-8f82-4301-9f0c-d061387e38a2
+[2025-07-13 19:22:09.341] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/saved/new 232b61d6-ad2a-4c84-b21f-3dd3a53407e1
+[2025-07-13 19:22:09.342] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/pinconn/find 23a994eb-fad6-45c5-bcf3-9bad193b4814
+[2025-07-13 19:22:09.356] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/pinconn/save 98b768fb-25a6-49aa-aa9a-5e66ab47e7d5
+[2025-07-13 19:22:09.359] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/credential/find c123c21f-6941-4992-b1fd-0129ab55c546
+[2025-07-13 19:32:09.158] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 65837c2f-134b-4af0-b1e0-aecdc676679f
+[2025-07-13 19:32:09.160] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 48da5439-485e-4cd5-aff0-071c0d9908b3
+[2025-07-13 19:32:09.161] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get e8db9e33-f329-411e-b03a-29979173e0af
+[2025-07-13 19:32:09.162] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 2fe3e716-028a-4e94-9c30-8b8aee80938a
+[2025-07-13 19:32:09.193] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 1b854462-acb0-41e2-abc1-0157e8108e1e
+[2025-07-13 19:32:09.196] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 1b7be52b-60af-45d8-9c56-bd6b798b5525
+[2025-07-13 19:42:09.138] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 6a5d6734-6ef4-4e99-a9d2-cb4c8bf66a6b
+[2025-07-13 19:42:09.176] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 7aee029b-51ef-47b6-adb4-550cbc656df9
+[2025-07-13 19:42:09.177] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 5f0462a1-add8-46d0-9d68-b5a0bb36447d
+[2025-07-13 19:42:09.182] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get f993c4d9-276e-49e3-9c48-1c00fad501e9
+[2025-07-13 19:42:09.193] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus a555b8b7-f8a5-4904-ab0a-629a05df5d9c
+[2025-07-13 19:42:09.195] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 79e12fd0-6dfc-4cf1-8973-4dd8ed233cf6
+[2025-07-13 19:52:09.138] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 2ac6c0dd-1a2a-425c-80c4-53db107ca82a
+[2025-07-13 19:52:09.176] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get fe6d7d9d-fbdc-4346-922d-dc520839d9ef
+[2025-07-13 19:52:09.177] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 318d0512-1e7b-45fa-aaa0-ff0d927a692d
+[2025-07-13 19:52:09.182] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 26d98d5f-3ee1-4f82-8ad1-dc6589a885f2
+[2025-07-13 19:52:09.193] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 7c9f7acb-5b40-448a-85a0-a9cfe06a45ac
+[2025-07-13 19:52:09.194] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 7f6ffba4-9cf3-4fc1-aa13-ef0e2aa8f610
+[2025-07-13 20:02:09.138] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus c11ef636-c2fb-4c9c-8b2e-b38867530389
+[2025-07-13 20:02:09.140] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get f5c39fd2-a641-410e-8db7-a1463397d2ab
+[2025-07-13 20:02:09.183] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus c04ea80e-2407-4982-a07e-b28bb306fb10
+[2025-07-13 20:02:09.185] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 144ad215-528e-45ba-b428-c11b42031bb7
+[2025-07-13 20:02:09.193] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 5d63ead4-281e-416c-b65e-a667efefdd51
+[2025-07-13 20:02:09.195] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 2d117414-b38e-4443-b569-2bcbe3a25d23
+[2025-07-13 20:12:09.138] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 00a0d26f-7c91-455a-be6c-4f4f20e6c344
+[2025-07-13 20:12:09.140] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 9c1d51ab-bdfb-49cd-a3fe-e890edb3b4a1
+[2025-07-13 20:12:09.182] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 4dcfae28-d108-40cd-870b-945805d2c781
+[2025-07-13 20:12:09.184] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get eabd9d59-a496-4687-afec-4a381f1226e0
+[2025-07-13 20:12:09.193] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 1fd78b83-c298-4ffd-883c-8e0b4660efc3
+[2025-07-13 20:12:09.195] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 57b96c0a-914d-4884-b54f-bc026af016f2
+[2025-07-13 20:22:09.138] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus ae87bfad-866b-4b71-9de2-6c68e9dff31b
+[2025-07-13 20:22:09.141] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 6fdbea42-0655-4719-a2fe-874cf4360299
+[2025-07-13 20:22:09.182] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus b81fbd23-1565-4dcf-aff0-cce583a0343e
+[2025-07-13 20:22:09.184] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 934e8286-a992-4d6a-9c98-0f6e6aa316b5
+[2025-07-13 20:22:09.193] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus ebe9c898-166e-41f5-9b2e-a872640b3eac
+[2025-07-13 20:22:09.195] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get a3bbcb5e-1ed8-4e00-9209-d2d6ef7b2b60
+[2025-07-13 20:32:09.138] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 5a2969af-fc06-4974-8653-652f904aea68
+[2025-07-13 20:32:09.140] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 15da9d66-f923-435e-b314-69d61fa1b1cd
+[2025-07-13 20:32:09.183] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 01eff3d3-8aa4-4903-84ed-b25d1a91274e
+[2025-07-13 20:32:09.185] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get d91148b5-177e-4041-a79d-5d7c5e1a7c0e
+[2025-07-13 20:32:09.193] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus e5720487-a5fa-40f5-92c3-88f31c1037c6
+[2025-07-13 20:32:09.195] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 852a2eee-cf82-4801-a31a-5f5e31a89f99
+[2025-07-13 20:42:09.138] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 85505c50-3caa-41fd-a8c0-9ea59a54a5cd
+[2025-07-13 20:42:09.140] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 175b5867-fe7d-4956-8802-59be2fbd4c9d
+[2025-07-13 20:42:09.183] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 3ceea047-bfea-4aa7-8ea1-ee9837c1c047
+[2025-07-13 20:42:09.185] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 57359d29-8929-4785-92de-97554e855509
+[2025-07-13 20:42:09.193] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/getStatus 6e59fbde-9883-4491-ac74-ddf7bd331c8b
+[2025-07-13 20:42:09.195] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  license/get 099c5db9-ebf0-4ee4-a6bd-9ff5a55794d6
+[2025-07-13 20:46:44.069] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/saved/find d4945a21-fe7f-4076-839b-aa0c9347304d
+[2025-07-13 20:46:44.073] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/pinconn/find 9cc43f90-04bc-4d1d-bb14-56a851ec2bfc
+[2025-07-13 20:46:44.086] [info]  (UtilityProcess)      RECEIVED REQUEST FOR NAME, ID:  appdb/pinconn/save 396498b5-a4a5-468e-a520-1c1835bac587
+[2025-07-13 20:46:44.937] [info]  (UtilityProcess)      REMOVING STATE FOR:  e3486849-bddc-4bc5-b220-e7c1c67d442b

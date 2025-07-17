@@ -1,0 +1,31 @@
+2025/07/17-13:06:08.208 65a Reusing MANIFEST /home/romnoelp/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/17-13:06:08.208 65a Recovering log #12
+2025/07/17-13:06:08.217 65a Reusing old log /home/romnoelp/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_chatgpt.com_0.indexeddb.leveldb/000012.log 
+2025/07/17-13:27:53.316 65b Compacting 1@1 + 1@2 files
+2025/07/17-13:27:53.329 65b Generated table #15@1: 100 keys, 179301 bytes
+2025/07/17-13:27:53.329 65b Compacted 1@1 + 1@2 files => 179301 bytes
+2025/07/17-13:27:53.332 65b compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/17-13:27:53.333 65b Delete type=2 #13
+2025/07/17-13:27:53.333 65b Delete type=2 #10
+2025/07/17-13:42:15.648 65b Level-0 table #17: started
+2025/07/17-13:42:15.681 65b Level-0 table #17: 3444778 bytes OK
+2025/07/17-13:42:15.685 65b Delete type=0 #12
+2025/07/17-14:13:07.824 65b Level-0 table #19: started
+2025/07/17-14:13:07.839 65b Level-0 table #19: 1168499 bytes OK
+2025/07/17-14:13:07.843 65b Delete type=0 #16
+2025/07/17-14:13:07.843 65b Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00e\x00A\x00b\x00p\x00M\x00T\x00Q\x00P\x008\x00y\x006\x00g\x00Y\x00B\x00l\x00n\x00j\x00t\x00t\x00H\x00I\x00H\x002\x00t\x00\x01$\x006\x008\x007\x008\x009\x001\x008\x007\x00-\x00d\x009\x004\x000\x00-\x008\x000\x000\x00a\x00-\x00a\x006\x00a\x00d\x00-\x004\x006\x00c\x00e\x00b\x00e\x00b\x008\x002\x001\x001\x00e' @ 11883 : 1
+2025/07/17-14:13:07.844 65b Compacting 1@0 + 1@1 files
+2025/07/17-14:13:07.851 65b Generated table #20@0: 540 keys, 72176 bytes
+2025/07/17-14:13:07.851 65b Compacted 1@0 + 1@1 files => 72176 bytes
+2025/07/17-14:13:07.855 65b compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/07/17-14:13:07.855 65b Delete type=2 #19
+2025/07/17-14:13:07.856 65b Delete type=2 #17
+2025/07/17-14:13:07.858 65b Manual compaction at level-0 from '\x00\x01\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00e\x00A\x00b\x00p\x00M\x00T\x00Q\x00P\x008\x00y\x006\x00g\x00Y\x00B\x00l\x00n\x00j\x00t\x00t\x00H\x00I\x00H\x002\x00t\x00\x01$\x006\x008\x007\x008\x009\x001\x008\x007\x00-\x00d\x009\x004\x000\x00-\x008\x000\x000\x00a\x00-\x00a\x006\x00a\x00d\x00-\x004\x006\x00c\x00e\x00b\x00e\x00b\x008\x002\x001\x001\x00e' @ 11883 : 1 .. (end); will stop at (end)
+2025/07/17-14:13:07.858 65b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00e\x00A\x00b\x00p\x00M\x00T\x00Q\x00P\x008\x00y\x006\x00g\x00Y\x00B\x00l\x00n\x00j\x00t\x00t\x00H\x00I\x00H\x002\x00t\x00\x01$\x006\x008\x007\x008\x009\x001\x008\x007\x00-\x00d\x009\x004\x000\x00-\x008\x000\x000\x00a\x00-\x00a\x006\x00a\x00d\x00-\x004\x006\x00c\x00e\x00b\x00e\x00b\x008\x002\x001\x001\x00e' @ 12135 : 1
+2025/07/17-14:13:07.858 65b Compacting 1@1 + 1@2 files
+2025/07/17-14:13:07.863 65b Generated table #21@1: 111 keys, 168675 bytes
+2025/07/17-14:13:07.863 65b Compacted 1@1 + 1@2 files => 168675 bytes
+2025/07/17-14:13:07.866 65b compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/17-14:13:07.866 65b Delete type=2 #20
+2025/07/17-14:13:07.866 65b Delete type=2 #15
+2025/07/17-14:13:07.867 65b Manual compaction at level-1 from '\x00\x01\x01 \x01\x1d\x00u\x00s\x00e\x00r\x00-\x00e\x00A\x00b\x00p\x00M\x00T\x00Q\x00P\x008\x00y\x006\x00g\x00Y\x00B\x00l\x00n\x00j\x00t\x00t\x00H\x00I\x00H\x002\x00t\x00\x01$\x006\x008\x007\x008\x009\x001\x008\x007\x00-\x00d\x009\x004\x000\x00-\x008\x000\x000\x00a\x00-\x00a\x006\x00a\x00d\x00-\x004\x006\x00c\x00e\x00b\x00e\x00b\x008\x002\x001\x001\x00e' @ 12135 : 1 .. (end); will stop at (end)

@@ -1,0 +1,36 @@
+* {
+  background:                 #0E0E0E;
+  foreground:                 #C8C8C8;
+  border-color:               #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+  border:                     2px;
+  padding:                    10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px;
+  padding: 0px;
+  background-color: transparent;
+  location: center;
+}
+
+mainbox {
+  orientation: horizontal;
+  children: [ "dummybox", "listview" ];
+}
+
+dummybox {
+  width: 50%;
+  border: 2px solid #C0C0C0;
+  background-color: transparent;
+}
+
+listview {
+  lines: 10;
+  columns: 1;
+  padding: 20px;
+}

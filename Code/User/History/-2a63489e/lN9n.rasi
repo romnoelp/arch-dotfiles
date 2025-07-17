@@ -1,0 +1,31 @@
+configuration {
+    modi: "drun,run,window";
+    font: "JetBrainsMono Nerd Font Mono 10";
+    show-icons: true;
+    icon-theme: "Papirus-Dark"; // or your preferred icon theme
+    terminal: "kitty";
+    location: 0;
+    fullscreen: false;
+    width: 30;
+    lines: 10;
+    columns: 1;
+    padding: 20;
+    fixed-num-lines: true;
+    disable-history: false;
+    sidebar-mode: false;
+    dpi: 0;
+}
+
+* {
+    background: #0E0E0E;
+    foreground: #C8C8C8;
+    border-color:  #8A8A8A;
+    selected-normal-background: #1A1A1A;
+    selected-normal-foreground: #FFFFFF;
+    selected-active-background: #FF5C5C;
+    selected-active-foreground: #FFFFFF;
+    selected-urgent-background: #FF5C5C;
+    selected-urgent-foreground: #FFFFFF;
+    border: 2px;
+    border-radius: 8px;
+}

@@ -1,0 +1,63 @@
+* {
+  background: #0E0E0E;
+  foreground: #C8C8C8;
+  border-color: #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+  border: 2px;
+  padding: 10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px;
+  padding: 0px;
+  background-color: transparent;
+  location: center;
+  border-radius: 8px; /* Outer window rounding */
+}
+
+mainbox {
+  orientation: horizontal;
+  children: [ "imagebox", "listview" ];
+}
+
+imagebox {
+  width: 50%;
+  border: 2px;
+  border-color: #C0C0C0;
+  background-color: transparent;
+  border-radius: 8px; /* Left box rounding */
+
+  image: url("/home/romnoelp/storage/Wallpapers/rofi.jpeg");
+  image-opacity: 1.0;
+  image-padding: 0px;
+  image-scale: 100%; /* Or 'none' if 100% distorts or doesn't work */
+}
+
+listview {
+  lines: 10;
+  columns: 1;
+  padding: 20px;
+  /* ADD THIS LINE for the right box's rounding */
+  border-radius: 8px; /* Match the 'window' and 'imagebox' for consistency */
+}
+
+element {
+  padding: 5px;
+  border: 1px;
+  border-color: transparent;
+  background-color: inherit;
+  text-color: #C8C8C8;
+  border-radius: 5px; /* Individual element rounding */
+}
+
+element selected {
+  background-color: #C0C0C0;
+  text-color: #000000;
+  border: 1px;
+  border-color: #C0C0C0;
+  border-radius: 5px; /* Individual selected element rounding */
+}

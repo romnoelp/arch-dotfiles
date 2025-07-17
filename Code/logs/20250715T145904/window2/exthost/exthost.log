@@ -1,0 +1,12 @@
+2025-07-15 15:00:51.724 [info] Extension host with pid 8190 started
+2025-07-15 15:00:51.724 [info] Skipping acquiring lock for /home/romnoelp/.config/Code/User/workspaceStorage/da4c5ba5a764a8981b73480d711e723d.
+2025-07-15 15:00:51.927 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-15 15:00:51.958 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-15 15:00:52.036 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-15 15:00:52.046 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-15 15:00:52.109 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-15 15:00:52.308 [info] Eager extensions activated
+2025-07-15 15:00:52.434 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-15 15:00:52.437 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-15 15:01:13.124 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-15 15:01:13.158 [info] Extension host with pid 8190 exiting with code 0

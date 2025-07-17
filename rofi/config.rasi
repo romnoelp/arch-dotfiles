@@ -1,0 +1,136 @@
+configuration {
+  modi: "drun";
+  font: "JetBrainsMono Nerd Font Mono 10";
+  show-icons: false;
+  icon-theme: "";
+}
+
+* {
+  background: #F5F5F5;
+  foreground: #2C2C2C;
+  border-color: #D0D0D0;
+  selected-normal-background: #E8E8E8;
+  selected-normal-foreground: #1A1A1A;
+  border: 2px;
+  padding: 10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+  border-radius: 10px;
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px;
+  padding: 0px;
+  background-color: #F5F5F5;
+  location: center;
+  border-radius: 10px;
+  transparency: "real";
+}
+
+mainbox {
+  orientation: vertical;
+  children: [ "inputbar", "listview" ];
+  background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+inputbar {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  border: 1px;
+  border-color: #D0D0D0;
+  spacing: 10px;
+  children: [ "prompt", "entry" ];
+  margin: 10px;
+}
+
+prompt {
+  background-color: inherit;
+  text-color: #2C2C2C;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+entry {
+  background-color: inherit;
+  text-color: #2C2C2C;
+  placeholder: "Type to search...";
+  placeholder-color: #888888;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+listview {
+  lines: 10;
+  columns: 1;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: #F5F5F5;
+  spacing: 5px;
+}
+
+element {
+  padding: 12px;
+  border: 1px;
+  border-color: transparent;
+  background-color: #FFFFFF;
+  text-color: #2C2C2C;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+element normal.normal {
+  background-color: #FFFFFF;
+  text-color: #2C2C2C;
+}
+
+element normal.urgent {
+  background-color: #FFFFFF;
+  text-color: #CC5555;
+}
+
+element normal.active {
+  background-color: #E8E8E8;
+  text-color: #2C2C2C;
+}
+
+element selected {
+  background-color: #E8E8E8;
+  text-color: #1A1A1A;
+  border: 1px;
+  border-color: #D0D0D0;
+  border-radius: 10px;
+}
+
+element selected.normal {
+  background-color: #E8E8E8;
+  text-color: #1A1A1A;
+}
+
+element selected.urgent {
+  background-color: #E8E8E8;
+  text-color: #CC5555;
+}
+
+element selected.active {
+  background-color: #D0D0D0;
+  text-color: #1A1A1A;
+}
+
+element alternate.normal {
+  background-color: #FAFAFA;
+  text-color: #2C2C2C;
+}
+
+element alternate.urgent {
+  background-color: #FAFAFA;
+  text-color: #CC5555;
+}
+
+element alternate.active {
+  background-color: #E8E8E8;
+  text-color: #2C2C2C;
+}

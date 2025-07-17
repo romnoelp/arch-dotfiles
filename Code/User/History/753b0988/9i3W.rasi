@@ -1,0 +1,73 @@
+* {
+  background: #0E0E0E;
+  foreground: #C8C8C8;
+  border-color: #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+  border: 2px;
+  padding: 10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px;
+  padding: 0px;
+  background-color: transparent;
+  location: center;
+  border-radius: 8px; /* Outer window rounding */
+}
+
+mainbox {
+  orientation: vertical; /* Input bar on top, then content below */
+  children: [ "inputbar", "listview" ]; /* Removed "content-box" and "imagebox" */
+}
+
+inputbar {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #202020; /* Fixed: Cleaned up this line */
+  border: 1px solid #C0C0C0;
+  spacing: 5px;
+  children: [ "prompt", "entry" ];
+}
+
+prompt {
+  background-color: inherit;
+  text-color: #C8C8C8;
+  padding: 0px;
+}
+
+entry {
+  background-color: inherit;
+  text-color: #C8C8C8;
+  placeholder: "Type to search...";
+  placeholder-color: #888888;
+  padding: 0px;
+}
+
+listview {
+  lines: 10;
+  columns: 1;
+  padding: 20px;
+  border-radius: 8px; /* Listview rounding */
+  width: 100%; /* Make listview take full width */
+}
+
+element {
+  padding: 5px;
+  border: 1px;
+  border-color: transparent;
+  background-color: inherit;
+  text-color: #C8C8C8;
+  border-radius: 5px;
+}
+
+element selected {
+  background-color: #C0C0C0;
+  text-color: #000000;
+  border: 1px;
+  border-color: #C0C0C0;
+  border-radius: 5px;
+}

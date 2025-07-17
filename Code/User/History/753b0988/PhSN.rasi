@@ -1,0 +1,58 @@
+* {
+  background: #0E0E0E;
+  foreground: #C8C8C8;
+  border-color: #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+  border: 2px; /* This sets a global default for border thickness. */
+  padding: 10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px; /* You might want to keep this 2px for the outer window */
+  padding: 0px;
+  background-color: transparent;
+  location: center;
+  border-radius: 8px; /* Assuming this is your main outside rounding */
+}
+
+mainbox {
+  orientation: horizontal;
+  children: [ "dummybox", "listview" ];
+}
+
+dummybox {
+  width: 50%;
+  border: 2px; /* Keep this 2px if you like its thickness */
+  border-color: #C0C0C0;
+  background-color: transparent;
+  border-radius: 8px;
+}
+
+listview {
+  lines: 10;
+  columns: 1;
+  padding: 20px;
+}
+
+element {
+  padding: 5px;
+  /* CHANGE THIS LINE: Reduce border thickness for individual elements */
+  border: 1px; /* Changed from 2px to 1px (or even 0px if you want no visible border) */
+  border-color: transparent; /* Keep this transparent if you only want the background/text color */
+  background-color: inherit;
+  text-color: #C8C8C8;
+  border-radius: 5px;
+}
+
+element selected {
+  background-color: #C0C0C0;
+  text-color: #000000;
+  /* CHANGE THIS LINE: Ensure selected elements also have the thinner border */
+  border: .5px; /* Changed from 2px to 1px (or match 'element') */
+  border-color: #C0C0C0; /* This border will become visible on selection */
+  border-radius: 5px;
+}

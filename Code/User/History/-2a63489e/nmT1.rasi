@@ -1,0 +1,79 @@
+configuration {
+  modi: "drun";
+  font: "JetBrainsMono Nerd Font Mono 10";
+  show-icons: false;
+}
+
+* {
+  background: #0E0E0E;
+  foreground: #C8C8C8;
+  border-color: #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+  border: 2px solid #C0C0C0;
+  padding: 10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px solid #C0C0C0;
+  padding: 0px;
+  background-color: #0E0E0E;
+  location: center;
+  border-radius: 8px;
+}
+
+mainbox {
+  orientation: vertical;
+  children: [ "inputbar", "listview" ];
+}
+
+inputbar {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #202020;
+  border: 1px solid #C0C0C0;
+  spacing: 5px;
+  children: [ "prompt", "entry" ];
+}
+
+prompt {
+  background-color: inherit;
+  text-color: #C8C8C8;
+  padding: 0px;
+}
+
+entry {
+  background-color: inherit;
+  text-color: #C8C8C8;
+  placeholder: "Type to search...";
+  placeholder-color: #888888;
+  padding: 0px;
+}
+
+listview {
+  lines: 10;
+  columns: 1;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+element {
+  padding: 5px;
+  border: 1px solid transparent;
+  border-color: transparent;
+  background-color: inherit;
+  text-color: #C8C8C8;
+  border-radius: 5px;
+}
+
+element selected {
+  background-color: #C0C0C0;
+  text-color: #000000;
+  border: 1px solid #C0C0C0;
+  border-color: #C0C0C0;
+  border-radius: 5px;
+}

@@ -1,0 +1,12 @@
+2025/07/17-13:05:15.284 65b Reusing MANIFEST /home/romnoelp/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/17-13:05:15.284 65b Recovering log #146
+2025/07/17-13:05:15.300 65b Reusing old log /home/romnoelp/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000146.log 
+2025/07/17-14:00:11.286 65b Level-0 table #151: started
+2025/07/17-14:00:11.302 65b Level-0 table #151: 1254914 bytes OK
+2025/07/17-14:00:11.306 65b Delete type=0 #146
+2025/07/17-14:16:03.455 65c Compacting 1@1 + 1@2 files
+2025/07/17-14:16:03.465 65c Generated table #152@1: 451 keys, 56463 bytes
+2025/07/17-14:16:03.465 65c Compacted 1@1 + 1@2 files => 56463 bytes
+2025/07/17-14:16:03.468 65c compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/17-14:16:03.469 65c Delete type=2 #148
+2025/07/17-14:16:03.469 65c Delete type=2 #151

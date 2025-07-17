@@ -1,0 +1,65 @@
+* {
+  background: #0E0E0E;
+  foreground: #C8C8C8;
+  border-color: #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+  border: 2px;
+  padding: 10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px;
+  padding: 0px;
+  background-color: transparent;
+  location: center;
+  border-radius: 8px;
+}
+
+mainbox {
+  orientation: horizontal;
+  children: [ "imagebox", "listview" ]; /* Changed 'dummybox' to 'imagebox' */
+}
+
+/* Define the new imagebox element */
+imagebox { /* Renamed from dummybox to be more semantic */
+  width: 50%;
+  border: 2px;
+  border-color: #C0C0C0;
+  background-color: transparent; /* This will be the fallback if image fails */
+  border-radius: 8px;
+
+  /* Rofi's specific way to handle images within an element */
+  image: url("/home/romnoelp/storage/Wallpapers/rofi.jpeg");
+  image-opacity: 1.0; /* 1.0 is fully opaque, 0.0 is fully transparent */
+  image-padding: 0px; /* Adjust if you want padding around the image inside the box */
+  image-scale: cover; /* Use 'cover', 'contain', 'none', or a percentage (e.g., 50%) */
+  /* image-position: center; // Rofi doesn't always have a direct 'image-position' property like CSS background-position. 'image-scale' often dictates placement. */
+}
+
+
+listview {
+  lines: 10;
+  columns: 1;
+  padding: 20px;
+}
+
+element {
+  padding: 5px;
+  border: 1px;
+  border-color: transparent;
+  background-color: inherit;
+  text-color: #C8C8C8;
+  border-radius: 5px;
+}
+
+element selected {
+  background-color: #C0C0C0;
+  text-color: #000000;
+  border: 1px;
+  border-color: #C0C0C0;
+  border-radius: 5px;
+}

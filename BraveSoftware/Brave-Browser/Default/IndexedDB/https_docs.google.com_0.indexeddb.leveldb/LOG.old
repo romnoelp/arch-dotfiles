@@ -1,0 +1,6 @@
+2025/07/15-18:05:17.977 2bfa Creating DB /home/romnoelp/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb since it was missing.
+2025/07/15-18:05:17.985 2bfa Reusing MANIFEST /home/romnoelp/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/07/15-18:05:23.342 2bfa Level-0 table #5: started
+2025/07/15-18:05:23.346 2bfa Level-0 table #5: 8382 bytes OK
+2025/07/15-18:05:23.349 2bfa Delete type=0 #3
+2025/07/15-18:05:23.349 2bfa Manual compaction at level-0 from (begin) .. (end); will stop at (end)

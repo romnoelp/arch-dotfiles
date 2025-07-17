@@ -1,0 +1,83 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "1508e09ea93d3a402127a907399d7970722f52fa09ef570f47ea3e0425995523",
+    "telemetry.devDeviceId": "f60cf8bd-2f04-451d-89c5-714b35a9f6e4",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [],
+        "emptyWindows": [
+            {
+                "backupFolder": "1752588679853"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/romnoelp/.config/polybar": "__default__profile__",
+            "file:///home/romnoelp/.config/i3": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1752588679853": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 180,
+            "statusBarHeight": 0,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "/home/romnoelp/.config/Code/Backups/1752588679853",
+            "uiState": {
+                "mode": 1,
+                "x": 969,
+                "y": 564,
+                "width": 926,
+                "height": 491
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 180,
+            "workspaces": {
+                "99d2ab2d514f2ec500e9b4107d90862b": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                },
+                "da4c5ba5a764a8981b73480d711e723d": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+* {
+  border: 2px;
+  border-radius: 10px;
+  padding: 10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+  background:     #0E0E0E;
+  foreground:     #C8C8C8;
+  border-color:   #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px;
+  border-radius: 10px;
+  background-color: #0E0E0E;
+  location: center;
+}
+
+mainbox {
+  orientation: horizontal;
+  border-radius: 10px;
+}
+
+listview {
+  padding: 20px;
+  lines: 10;
+  columns: 1;
+  border-radius: 10px;
+}
+
+element {
+  padding: 5px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-color: inherit;
+  text-color: #C8C8C8;
+}
+
+element selected {
+  background-color: #C0C0C0;
+  text-color: #000000;
+  border-color: #C0C0C0;
+  border-radius: 8px;
+}

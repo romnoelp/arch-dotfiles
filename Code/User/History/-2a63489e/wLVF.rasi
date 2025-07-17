@@ -1,0 +1,7 @@
+configuration {
+  modi: "drun";
+  font: "JetBrainsMono Nerd Font Mono 10";
+  show-icons: false;
+}
+
+@theme "/home/romnoelp/.config/rofi/themes/rofi-wallpaper.rasi"

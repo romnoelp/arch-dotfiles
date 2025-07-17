@@ -1,0 +1,13 @@
+configuration {
+  font: "JetBrainsMono Nerd Font 10";
+  show-icons: false;
+  display-drun: "Apps";
+  modi: "drun,run";
+  location: 0;
+  sidebar-mode: false;
+  disable-history: false;
+  fullscreen: false;
+  matching: fuzzy;
+}
+
+@theme "~/.config/rofi/themes/rofi-wallpaper.rasi"

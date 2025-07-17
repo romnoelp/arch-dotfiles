@@ -1,0 +1,93 @@
+* {
+  background: #0E0E0E;
+  foreground: #C8C8C8;
+  border-color: #C0C0C0;
+  selected-normal-background: #C0C0C0;
+  selected-normal-foreground: #000000;
+  border: 2px;
+  padding: 10px;
+  font: "JetBrainsMono Nerd Font Mono 10";
+}
+
+window {
+  width: 800px;
+  height: 500px;
+  border: 2px;
+  padding: 0px;
+  background-color: transparent;
+  location: center;
+  border-radius: 8px;
+}
+
+mainbox {
+  orientation: vertical; /* IMPORTANT: Change to vertical to stack inputbar on top */
+  children: [ "inputbar", "content-box" ]; /* Added inputbar and a new content-box */
+}
+
+/* Create a new box to hold the image and listview horizontally */
+content-box {
+    orientation: horizontal;
+    children: [ "imagebox", "listview" ];
+    /* You might want to adjust padding/spacing here */
+}
+
+/* Define the inputbar and its sub-elements */
+inputbar {
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners for the input bar itself */
+  background-color: #202020; /* A slightly different background for the input bar */
+  border: 1px solid #C0C0C0; /* A subtle border */
+  spacing: 5px; /* Space between prompt and entry */
+  children: [ "prompt", "entry" ]; /* The input bar contains a prompt and the entry field */
+}
+
+prompt {
+  background-color: inherit;
+  text-color: #C8C8C8;
+  padding: 0px; /* Adjust if you need space around the prompt text */
+}
+
+entry {
+  background-color: inherit;
+  text-color: #C8C8C8;
+  placeholder: "Type to search..."; /* Optional: add a placeholder text */
+  placeholder-color: #888888;
+  padding: 0px; /* Adjust if you need space around the entry text */
+}
+
+imagebox {
+  width: 50%;
+  border: 2px;
+  border-color: #C0C0C0;
+  background-color: transparent;
+  border-radius: 8px;
+
+  image: url("/home/romnoelp/storage/Wallpapers/rofi.jpeg");
+  image-opacity: 1.0;
+  image-padding: 0px;
+  image-scale: 100%; /* Or 'none' if 100% distorts or doesn't work */
+}
+
+listview {
+  lines: 10;
+  columns: 1;
+  padding: 20px;
+  border-radius: 8px; /* Right box rounding */
+}
+
+element {
+  padding: 5px;
+  border: 1px;
+  border-color: transparent;
+  background-color: inherit;
+  text-color: #C8C8C8;
+  border-radius: 5px;
+}
+
+element selected {
+  background-color: #C0C0C0;
+  text-color: #000000;
+  border: 1px;
+  border-color: #C0C0C0;
+  border-radius: 5px;
+}
