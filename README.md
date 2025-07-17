@@ -12,7 +12,6 @@ This repository contains my dotfiles for a custom Arch Linux desktop environment
 
 ## 📸 Screenshots
 <img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/cc7de9f7-80ff-47f3-ba22-e0ce5feb63c3" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9def487e-6d75-4bc2-8363-3705aa567303" />
 
 ---
 
